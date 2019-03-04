@@ -1,10 +1,11 @@
 #!/bin/env python2
-# Script owner="sachin"
-# Created on date 27/10/2018
-# Modified on date 1/11/2018
-# Whats app number 8105190452 
-# if u get any bugs send to this number
-# i am studying 4th year civil
+# Coded by Jinxpro.id
+# Dibuat pada 17/11/2018
+# Author : Firman.id
+# gr33tz : IndoXploit - JakartaHunterCrew - B0mb3rSh0tz
+#
+#
+#
 #
 
 import os
@@ -15,7 +16,7 @@ import urllib2
 def cls():
 	if sys.platform == 'linux2':
 		os.system("clear")
-	else:
+	else: 
 		os.system("cls")
 
 #vulnerability scanner
@@ -26,7 +27,7 @@ def scanner():
 	pass
  else:
 	print ''
-	print '\033[1;39m[!] \033[1;31mFile does not exists\033[1;39m'
+	print '\033[1;39m[!] \033[1;31mFile tidak ditemukan.\033[1;39m'
 	print ''
 	return
  fi1 = open(web, "r")
@@ -35,7 +36,7 @@ def scanner():
 
  for site in fi2:
  	site = site.rstrip()
-	pooja = 0
+	pooja = 
 	while pooja <= len(site):
 		pooja = pooja+1
 		if pooja == len(site):
@@ -75,19 +76,19 @@ def scanner():
 		 print "\033[1;39m"
 		 print site 
 		 print check2
-		 print "\033[1;31m[-] Site is not vulnerable\033[1;39m"
+		 print "\033[1;31m[-] Website tidak vuln. Cari lagi sana\033[1;39m"
 		 print ''
 	 else:
 		 print '\033[1;39m'
 		 print site
 		 print check2
-		 print "\033[1;32m[+] Site is vulnerable\033[1;39m"
+		 print "\033[1;32m[+] Website vuln. Hajaar !\033[1;39m"
 		 print ''
 	except ValueError:
                 pass
 
 logo1 = '''
-\033[1;33mWARNING :\033[1;39m I am not responsible for your actions
+\033[1;33mWARNING :\033[1;39m Not Responding
 \033[1;36m
 '''
 print logo1
@@ -102,7 +103,7 @@ else:
 
 
 logo2 = '''
-Coded by Sachin
+Coded by Jinxpro.id | Indonesian Exploiter's
 
 \t   |  |-------    __     _____  
 \t   |  |       |  /  \   |       |   \033[1;39m VERSION : \033[1;32m1.4\033[1;39m
@@ -113,21 +114,21 @@ Coded by Sachin
 
 '''
 print logo2
-print "\033[1;31mDork :\033[1;39m inurl:index.php/component/fabrik/ site:\033[1;39m"
-print ""
+print "\033[1;31mDork :\033[1;39m inurl:index.php/component/fabrik/ site:\n\033[1;39m"
+print "======>Gunakan Pemikiranmu Kawan<======"
 def hlp():
  help= '''\033[1;39m
 \t Commands      Description
 \t\033[1;31m ========      ===========\033[1;39m
 \t
 \t -h/help       Help
-\t set url       set url <targeted site>
+\t set url       set url <isi target>
 \t set file      set file <filename.txt>
 \t clear         clear screen
-\t scan          Site vulnerability sacanner
+\t scan          Scanner Com_Fabrik
 \t run           Creates payload
-\t about         My self
-\t exit          Exit the program
+\t about         MyDreams
+\t exit          Exit
 \t\033[1;39m
 '''
  print help
