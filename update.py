@@ -8,7 +8,7 @@ ver = open("version.txt", "r")
 version = ver.read()
 ver.close()
 
-up = urllib2.urlopen("https://raw.githubusercontent.com/sachin175638/jdash/master/version.txt").read()
+up = urllib2.urlopen("https://raw.githubusercontent.com/diahadi/explorer/master/version.txt").read()
 if version != up:
 	print ""
 	print "[+] Update available"
