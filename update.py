@@ -16,7 +16,7 @@ if version != up:
 	x = raw_input("Want to update y/n: ")
 	if x == "y":
 		os.remove("jinxpro.py")
-		sachin = "https://raw.githubusercontent.com/sachin175638/jdash/master/jdash.py"
+		 = "https://raw.githubusercontent.com/diahadi/explorer/master/jinxpro.py"
 		update = urllib2.urlopen(jinxpro).read()
 		
 		jdash = open("jinxpro.py", "w")
