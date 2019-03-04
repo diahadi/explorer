@@ -1,5 +1,5 @@
 #!/bin/env python2
-#code owner = "sachin"
+#XignCode = "Jinxpro.id"
 #
 import urllib2
 import os
@@ -15,11 +15,11 @@ if version != up:
 	print ""
 	x = raw_input("Want to update y/n: ")
 	if x == "y":
-		os.remove("jdash.py")
+		os.remove("jinxpro.py")
 		sachin = "https://raw.githubusercontent.com/sachin175638/jdash/master/jdash.py"
-		update = urllib2.urlopen(sachin).read()
+		update = urllib2.urlopen(jinxpro).read()
 		
-		jdash = open("jdash.py", "w")
+		jdash = open("jinxpro.py", "w")
 		jdash.write(update)
 		jdash.close()
 
