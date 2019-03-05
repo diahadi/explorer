@@ -16,7 +16,7 @@ if version != up:
 	x = raw_input("Apakah kamu ingin Update ? y/n: ")
 	if x == "y":
 		os.remove("jinxpro.py")
-		jinxpro = "https://raw.githubusercontent.com/diahadi/explorer/master/jinxpro.py"
+		diahadi = "https://raw.githubusercontent.com/diahadi/explorer/master/jinxpro.py"
 		update = urllib2.urlopen(jinxpro).read()
 		
 		jinxpro = open("jinxpro.py", "w")
