@@ -36,7 +36,7 @@ def scanner():
 
  for site in fi2:
  	site = site.rstrip()
-	pooja = 
+	pooja = 0
 	while pooja <= len(site):
 		pooja = pooja+1
 		if pooja == len(site):
