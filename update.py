@@ -11,22 +11,22 @@ ver.close()
 up = urllib2.urlopen("https://raw.githubusercontent.com/diahadi/explorer/master/version.txt").read()
 if version != up:
 	print ""
-	print "[+] Update available"
+	print "[+] Pembaruan Tersedia"
 	print ""
-	x = raw_input("Want to update y/n: ")
+	x = raw_input("Apakah kamu ingin Update ? y/n: ")
 	if x == "y":
 		os.remove("jinxpro.py")
 		jinxpro = "https://raw.githubusercontent.com/diahadi/explorer/master/jinxpro.py"
 		update = urllib2.urlopen(jinxpro).read()
 		
-		jdash = open("jinxpro.py", "w")
-		jdash.write(update)
-		jdash.close()
+		jinxpro = open("jinxpro.py", "w")
+		jinxpro.write(update)
+		jinxpro.close()
 
 		os.remove("version.txt")
 		ver = open("version.txt", "w")
 		ver.write(up)
 else:
 	print ""
-	print "[-] No update available right now"
+	print "[-] Tidak ada pembaruan"
 	print ""
