@@ -150,10 +150,11 @@ while True:
 		scanner()
 	 elif coder[0] == "about":
 		print '\033[1;39m'
-		print '\t Name   : Jinxpro.id'
-		print '\t Country: Indonesia'
-		print '\t MyTeam.: JakartaHunterCrew'
-		print '\t Link FB: https://www.facebook.com/FikriNetral7'
+		print '\t Nickname : Jinxpro.id'
+		print '\t Country  : Indonesia'
+		print '\t MyTeam.  : JakartaHunterCrew'
+		print '\t Contact  : bodoamad91@gmail.com'
+		print '\t Link FB  : https://www.facebook.com/FikriNetral7'
 		print '\t'
 
 	 elif coder[0] == "-h":
