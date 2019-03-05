@@ -17,7 +17,7 @@ if version != up:
 	if x == "y":
 		os.remove("jinxpro.py")
 		diahadi = "https://raw.githubusercontent.com/diahadi/explorer/master/jinxpro.py"
-		update = urllib2.urlopen(jinxpro).read()
+		update = urllib2.urlopen(diahadi).read()
 		
 		jinxpro = open("jinxpro.py", "w")
 		jinxpro.write(update)
