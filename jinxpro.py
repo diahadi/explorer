@@ -76,13 +76,13 @@ def scanner():
 		 print "\033[1;39m"
 		 print site 
 		 print check2
-		 print "\033[1;31m[-] Website tidak vuln. Cari lagi sana\033[1;39m"
+		 print "\033[1;31m[-] Website vuln. Hajarr !\033[1;39m"
 		 print ''
 	 else:
 		 print '\033[1;39m'
 		 print site
 		 print check2
-		 print "\033[1;32m[+] Website vuln. Hajaar !\033[1;39m"
+		 print "\033[1;32m[+] Website tidak vuln.\033[1;39m"
 		 print ''
 	except ValueError:
                 pass
@@ -220,11 +220,11 @@ while True:
 		print check2
 
 		if check2 != vu:
-			print "\033[1;31m[-] Website tidak vuln. Cari lagi sana\033[1;39m"
-			print ''
-		else:
-			print "[+] Website vuln. Hajaar !"
+			print "\033[1;31m[-] Website vuln. Hajaar !\033[1;39m"
 			jinxpro = "payload/index.html"
+		else:
+			print "[+] Website tidak vuln"
+			
 
 			if os.path.exists(jinxpro):
 				os.remove(jinxpro)
