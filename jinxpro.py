@@ -1,6 +1,6 @@
 #!/bin/env python2
 # Coded by Jinxpro.id
-# Dibuat pada 17/11/2018
+# Dibuat pada 01/03/2019
 # Author : Firman.id
 # gr33tz : IndoXploit - JakartaHunterCrew - B0mb3rSh0tz
 #
@@ -105,12 +105,12 @@ else:
 logo2 = '''
 Coded by Jinxpro.id | Indonesian Exploiter's
 
-\t   |  |-------    __     _____  
-\t   |  |       |  /  \   |       |   \033[1;39m VERSION : \033[1;32m1.4\033[1;39m
-\t\033[1;36m   |  |       | |    |  |_____  |   \033[1;32m JOOMLA EXPLOIT\033[1;36m
-\t   |  |       | |    |        | |_____
-\t   |  |       | |    |        | |     |
-\t|__/  |-------   \__/ \ ______| |     |
+\t   |  |  |\     |  \      /   |------------| |--------|   ________
+\t   |  |  | \    |    \   /    |            | |        |  /         \      \033[1;39m VERSION : \033[1;32m1.4\033[1;39m
+\t\033[1;36m                                                                \033[1;32m JOOMLA EXPLOIT\033[1;36m
+\t   |  |  |   \  |    /  \     |------------| |--------|  |    |     |
+\t   |  |  |    \ |   /     \   |              |      \    |          |
+\t|__/  |  |     \   /       \  |              |       \    \________/
 
 '''
 print logo2
