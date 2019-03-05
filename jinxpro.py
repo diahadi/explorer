@@ -88,7 +88,7 @@ def scanner():
                 pass
 
 logo1 = '''
-\033[1;33mWARNING :\033[1;39m Not Responding
+\033[1;33mWARNING :\033[1;39m Anda akan dialihkan..
 \033[1;36m
 '''
 print logo1
