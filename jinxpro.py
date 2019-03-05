@@ -106,8 +106,9 @@ logo2 = '''
 Coded by Jinxpro.id | Indonesian Exploiter's
 
 \t   |  |  |\     |  \      /   |------------| |--------|   ________
-\t   |  |  | \    |    \   /    |            | |        |  /         \      \033[1;39m VERSION : \033[1;32m1.4\033[1;39m
-\t \033[1;36m                                                                \033[1;32m JOOMLA EXPLOIT\033[1;36m
+\t   |  |  | \    |    \   /    |            | |        |  /         \     
+\t \033[1;39m VERSION : \033[1;32m1.4\033[1;39m
+\t \033[1;32m JOOMLA EXPLOIT\033[1;36m
 \t   |  |  |   \  |    /  \     |------------| |--------|  |    |     |
 \t   |  |  |    \ |   /     \   |              |      \    |          |
 \t|__/  |  |     \   /       \  |              |       \    \________/
@@ -162,7 +163,7 @@ while True:
 	 elif coder[0] == "exit":
 		print "\033[1;39m"
 		break
-	 elif coder[0] == "set":
+	 elif coder[0] == "lock":
 		if coder[1] == "url":
 		 u = str(coder[2])
 		 spu = 0
